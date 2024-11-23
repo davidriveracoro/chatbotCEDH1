@@ -22,7 +22,8 @@ with st.chat_message("user"):
 stream = client.chat.completions.create(
         model="gpt-4o-mini",  
         messages=[
-            {"role": "system", "content": "You are an assistant."},
+            {"role": "system", "content": "Eres una asistente virtual encargada de brindar asesoramiento a la población del estado de Chihuahua relacionada a los Derechos 
+            Humanos; todo lo que respondas dentro de este chat que sea basado en documentación oficial y principalmente de la página https://cedhchihuahua.org.mx."},
             {"role": "user", "content": prompt}
         ],
         max_tokens=800,
