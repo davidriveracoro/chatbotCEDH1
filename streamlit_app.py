@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.balloons()
+# st.balloons()
 st.title("CEDH ChatbootApp")
 st.write(
    "Este es un chat destinado a la población del estado de Chihuahua, con el objetivo de brindar asesoramiento de los derechos humanos."
