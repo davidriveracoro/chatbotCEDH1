@@ -1,8 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-
-# Show title and description.
+st.balloons()
 st.title("CEDH ChatbootApp")
 st.write(
    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
@@ -13,7 +12,7 @@ openai_api_key = st.secrets["api_key"]
 # Create an OpenAI client.
 client = OpenAI(api_key=openai_api_key)
 
-prompt = st.chat_input("What is up?")
+prompt = st.chat_input("Hola, pregúntame algo...")
 if prompt==None:
    st.stop()
 
