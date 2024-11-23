@@ -4,9 +4,7 @@ from openai import OpenAI
 st.balloons()
 st.title("CEDH ChatbootApp")
 st.write(
-   "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Este es un chat destinado a la población del estado de Chihuahua, con el objetivo de brindar asesoramiento de los derechos humanos."
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
